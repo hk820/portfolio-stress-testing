@@ -1,0 +1,30 @@
+# ---- Secrets: never upload ----
+# (Your API key normally lives outside this folder anyway; see README.md.)
+.env
+.env.*
+*.key
+api-keys.env
+
+# ---- Python environment and caches: rebuilt automatically ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Input files: each user downloads their own (see README.md) ----
+input/*
+!input/README.md
+
+# ---- Files the program creates while running ----
+output/
+*.log
+
+# ---- Editor and operating-system clutter ----
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

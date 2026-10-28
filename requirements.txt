@@ -1,0 +1,6 @@
+# Packages this project needs. bootstrap.py installs them into .venv
+# automatically on the first run, and again whenever this file changes.
+yfinance>=1.7.0     # daily prices from Yahoo Finance
+pandas>=2.2         # tables of prices and results
+matplotlib>=3.8     # charts
+openpyxl>=3.1       # writes the Excel file
